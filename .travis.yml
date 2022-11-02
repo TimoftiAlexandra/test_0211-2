@@ -1,0 +1,6 @@
+os: linux
+env:
+  STR1: AKIAI6E66XXXX4SKIJWA
+script:
+  - echo $STR1
+  - echo "Test ${STR1} test2 ${STR1} textextext"
